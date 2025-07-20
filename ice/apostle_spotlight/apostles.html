@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        /* Insert styles here */
+        #wrapper{
+            width: 800px;
+            height: 600px;
+            margin: auto;
+            border: 5px solid, black;
+            border-radius: 25px;
+            overflow: hidden;
+            
+        }
+
+        #christus{
+            /*Jesus please move to the right spot*/
+            background-image: url("https://www.churchofjesuschrist.org/imgs/6f2eb5b2e09b1bb75bb24f72f13798dece291c60/full/1920%2C/0/default");
+            width:100%;
+            height:100%;
+            margin-left: -50px;
+
+        }
+        
+        #head_container{
+            display: grid;
+            grid-template-columns: 150px 150px 150px;
+            text-align:center;
+            align-items: center;
+            justify-content: center;
+            column-gap: 15px;
+        }
+
+        #main_container{
+            display:grid;
+            grid-template-columns: 100px 100px 100px 100px;
+            grid-template-rows: auto auto auto auto;
+            justify-content:center;
+            align-items:center;
+            text-align:center
+        }
+
+        
+        .head1{
+            grid-column: 1/4;
+        }
+
+        .main1{
+            grid-column: 1/5;
+        }
+
+        .nelson{
+            height:150px;
+            width:150px;
+            border-radius: 50%;
+            overflow:hidden;
+            border: 10px solid, white;
+
+        }
+
+        .counsel{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            overflow:hidden;
+            border: 8px solid, white;
+        }
+
+        .elder{
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 6px solid, white;
+            
+        }
+    </style>
+</head>
+
+<div id="wrapper">
+  <div id="christus">
+    <body>
+    <!-- Insert HTML elements here -->
+        
+            
+        <div id="head_container">
+            <div class="head1"><h1>First Presidency</h1></div>
+            <div><img class="counsel"src="images/oaks.webp" alt="President Oaks"></div>
+            <div><img class="nelson" src="images/nelson.webp" alt="President Nelson"></div>
+            <div><img class="counsel"src="images/eyring.webp" alt="Pesident Eyring"></div>
+        </div>
+        <div id="main_container">
+            <h3 class="main1">Quorum of the Twelve Apostles</h3>
+        
+            <div><img class="elder"src="images/holland.webp" alt="Elder Holland"></div>
+            <div><img class="elder"src="images/uchtdorf.webp" alt="Elder Uchtdorf"></div>
+            <div><img class="elder"src="images/bednar.webp" alt="Elder Bednar"></div>
+            <div><img class="elder"src="images/cook.webp" alt="Elder Cook"></div>
+            <div><img class="elder"src="images/christofferson.webp" alt="Elder Christofferson"></div>
+            <div><img class="elder"src="images/anderson.webp" alt="Elder Anderson"></div>
+            <div><img class="elder"src="images/rasband.webp" alt="Elder Rasband"></div>
+            <div><img class="elder"src="images/stevenson.webp" alt="Elder Stevenson"></div>
+            <div><img class="elder"src="images/renlund.webp" alt="Elder Renlund"></div>
+            <div><img class="elder"src="images/gong.webp" alt="Elder Gong"></div>
+            <div><img class="elder"src="images/soares.webp" alt="Elder Soares"></div>
+            <div><img class="elder"src="images/kearon.webp" alt="Elder Kearon"></div>
+
+        </div>
+        
+    </body>
+  </div>
+</div>
+</html>

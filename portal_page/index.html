@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>TS Portal Page</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="images/logo.png">
+        <nav class="header">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="../wwr/index.html">WWR</a></li>
+                <li><a href="../ICE/index.html">ICE</a></li>
+                <li><a href="about_me.html">About me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="block1">
+            <h2>Lorem ipsum dolor sit amet</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Nulla quam velit, vulputate<br> eu pharetra nec, mattis ac neque. </p>
+            <img src="images/code.jpg">
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <div id="block2">
+            <!--First Icon Section-->
+            <div class="icon1">
+            <img src="images/check_icon.png">
+            <h3>Lorem Ipsum 1</h3>
+            <p>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit. Nulla quam <br> velit, vulputate eu pharetra nec, <br>mattis ac neque. </p>
+            </div>
+            <!--Second Icon Section-->
+            <div class="icon2">
+            <img src="images/flag_icon.png">
+            <h3>Lorem Ipsum 2</h3>
+            <p>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit. Nulla quam <br> velit, vulputate eu pharetra nec, <br>mattis ac neque. </p>
+            </div>
+            <!--Third Icon Section-->
+            <div class="icon3">
+            <img src="images/star_icon.png">
+            <h3>Lorem Ipsum 3</h3>
+            <p>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit. Nulla quam <br> velit, vulputate eu pharetra nec, <br>mattis ac neque. </p>
+            </div>
+        </div>
+        <div id="block3">
+            <h2>Lorem Ipsum dolor sit amet</h2>
+            <p>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit. Nulla quam <br>velit, vulputate eu pharetra nec,<br> mattis ac neque. </p>
+            <img src="images/app_demo.jpeg">
+        </div>
+        <hr>
+        <div id="block4">
+            <div class="display-container">
+                <img class="mySlides" src="images/image1.jpg">
+                <img class="mySlides" src="images/image2.jpg">
+                <img class="mySlides" src="images/image3.jpg">
+                
+
+                <button class="left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+
+            <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+            </script>
+        </div>
+    </main>
+
+    <footer>
+        <nav class="bottom">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="../wwr/index.html">WWR</a></li>
+                <li><a href="../ICE/index.html">ICE</a></li>
+                <li><a href="about_me.html">About me</a></li>
+            </ul>
+        </nav>
+        <br>
+        <p>Tristan Sands &copy;</p>
+    </footer>
+</body>
+</html>

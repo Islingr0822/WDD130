@@ -1,0 +1,97 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+ background-color: #f4eee0;
+  background-image: 
+    linear-gradient(45deg, #d6b186 25%, transparent 25%),
+    linear-gradient(-45deg, #d6b186 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #d6b186 75%),
+    linear-gradient(-45deg, transparent 75%, #d6b186 75%);
+  background-size: 40px 40px;
+  background-position: 0 0, 0 20px, 20px -20px, -20px 0px;
+}
+
+/* Navbar */
+nav {
+  background-color: #4a3f35;
+  color: #e8d6ba;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 4px solid #c19a6b;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav ul li {
+  text-decoration: none;
+  color: #e8d6ba;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li:hover {
+  color: #ffd77a;
+}
+
+/* Hero Section */
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+img {
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  margin: auto;
+}
+
+                                                                                               
+/* Content */
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  background-color: #f4eee0;
+}
+
+main h3 {
+  color: #5a3e2b;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px dashed #c19a6b;
+  padding-bottom: 0.5rem;
+}
+
+main p {
+  font-size: 1.15rem;
+  margin-bottom: 1.2rem;
+  text-align: justify;
+
+}
+
+/* Footer */
+footer {
+  background-color: #4a3f35;
+  color: #d8c8b0;
+  text-align: center;
+  padding: 1.5rem 2rem;
+  border-top: 4px solid #c19a6b;
+  font-size: 0.95rem;
+}
